@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title></title>
+	<style type="class/css">
+
+</head>
+<body style="background-color: lightblue">
+<div style="border-style: solid;border-color: orange;margin-left: 28%; margin-right: 40%">
+
+<form action="calculo.php" method="GET">
+<br>
+	<div style="background-color: #FBEFEF">
+	<br> <input style="font-size: 16px; height: 40px; width: 200px; margin-right: 15%; margin-left: 18%; border-radius:5px" type="number" name="precio1" id="precio1" placeholder="Ingrese Precio 1" ></br>
+	<br> <input style="font-size: 16px;height: 40px;width: 200px;margin-left: 18%; border-radius:5px"type="number" name="precio2"  placeholder="Ingrese Precio 2" ></br>
+	<br> <input style="font-size: 16px;height: 40px;width: 200px;margin-left: 18%; border-radius:5px" type="number" name="precio3"  placeholder="Ingrese Precio 3" ></br>
+	<p><br></p>
+	
+	
+	</div>
+
+<div style="">
+<br><input style="height: 40px;width: 200px; border-radius:5px; margin-left: 18%;margin-right: 30%" type="submit" name="suma" value="suma"> </br>
+
+
+<br><input style="height: 40px;width: 200px; border-radius:5px;margin-left: 18%" type="submit" name="promedio" value="Promedio"> </br>
+
+
+<br><input style="height: 40px;width: 200px; border-radius:5px;margin-left: 18%" type="submit" name="pfinal" value="final"> </br>
+<br>
+
+	<div style="height: 40px; text-align: center; border-style: solid; border-color: blue; margin-left: 0.3%">
+		<?php
+		echo $operacion.$muestro;
+
+		?>
+	</div>
+</div>
+<br>
+</div>
+
+</form>
+
+</body>
+
+</html>
